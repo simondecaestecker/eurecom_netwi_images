@@ -7,4 +7,4 @@ iptables -A FORWARD -i eth1 -o eth0 -j ACCEPT
 iptables -A FORWARD -i eth2 -o eth0 -j ACCEPT
 iptables-save > /etc/iptables/rules.v4
 
-/bin/bash
+/etc/init.sh
